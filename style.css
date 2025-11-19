@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    background: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.btn-whatsapp {
+    background: #f1c40f;
+    padding: 10px 18px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #000;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #000;
+}
+
+.btn-hero {
+    background: #f1c40f;
+    padding: 14px 24px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* SEÇÕES */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #f1c40f;
+    margin-bottom: 20px;
+}
+
+.servicos ul {
+    list-style: none;
+}
+
+.servicos li {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* CONTATO */
+.btn-contato {
+    background: #f1c40f;
+    padding: 12px 20px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
