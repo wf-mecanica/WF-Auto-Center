@@ -28,7 +28,7 @@ body {
 .site-header {
   text-align: center;
   padding: 28px 16px;
-  background: #000; /* Preto */
+  background: #ffffff; /* Branco */
   border-bottom: 3px solid var(--accent);
 }
 .site-header h1 {
